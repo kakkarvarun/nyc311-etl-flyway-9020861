@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+etl_log.txt
+
+# Docker
+mysql-data/
