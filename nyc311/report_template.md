@@ -23,3 +23,8 @@ Slow-log: Logging is configured correctly and captured a test entry (SELECT SLEE
 ## Reflection (3–5 sentences)
 How can automation and AI improve database operations at scale?
 AI helps turn noisy database signals (metrics, slow logs, query plans, error logs, Flyway/ETL logs) into concise, actionable insights. It can summarize slow-query logs, interpret EXPLAIN/EXPLAIN FORMAT=JSON, and recommend targeted indexes or query rewrites based on actual workload patterns. By learning seasonality and baselines, AI can flag anomalous latency, lock waits, or plan regressions early and suggest likely root causes with links to the exact queries and tables. It also assists with capacity planning (buffer pool sizing, storage growth), generates SLO-aware alerts, and drafts runbook steps for faster MTTR. Used well, AI augments—not replaces—DBA judgment, accelerating triage and making performance tuning more systematic and data-driven.
+
+
+
+
+
